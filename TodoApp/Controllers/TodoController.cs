@@ -14,6 +14,13 @@ namespace TodoApp.Controllers
             return View();
         }
 
+        public ActionResult Todos()
+        {
+            ViewBag.Message = "Todo List";
+
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Description";
